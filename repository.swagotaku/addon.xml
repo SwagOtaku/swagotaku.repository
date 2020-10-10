@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.swagotaku" name="SwagOtaku Repo" version="0.0.1" provider-name="SwagOtaku">
+    <extension point="xbmc.addon.repository" name="SwagOtaku Repo">
+      <info compressed="false">https://raw.githubusercontent.com/SwagOtaku/swagotaku.repository/main/zips/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/SwagOtaku/swagotaku.repository/main/zips/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/SwagOtaku/swagotaku.repository/main/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>SwagOtaku</summary>
+        <description>SwagOtaku Repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
