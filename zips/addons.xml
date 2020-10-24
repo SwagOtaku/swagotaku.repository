@@ -52,7 +52,7 @@ Changelog 0.0.1:
 	</extension>
 </addon>
 
-<addon id="plugin.video.kaito" name="kaito" provider-name="SwagOtaku" version="0.0.4">
+<addon id="plugin.video.kaito" name="kaito" provider-name="SwagOtaku" version="0.0.5">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.requests" version="2.19.1" />
@@ -75,6 +75,9 @@ Changelog 0.0.1:
 			<fanart>fanart.jpg</fanart>
 		</assets>
     <news>
+Changelog 0.0.5:
+Fixed bug
+
 Changelog 0.0.4:
 Fixed bug
 
