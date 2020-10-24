@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="context.kaito" version="0.0.1" name="kaito - Global Context Menu Items" provider-name="SwagOtaku">
+<addon id="context.kaito" version="0.0.2" name="kaito - Global Context Menu Items" provider-name="SwagOtaku">
 	<requires>
 		<import addon="xbmc.python" version="2.23.0" />
 	</requires>
 	<extension point="kodi.context.item">
         <menu id="kodi.core.main">
+			<item library="rescrape.py">
+	              <label>Rescrape Item</label>
+	              <visible>String.StartsWith(ListItem.path,plugin://plugin.video.kaito/)+[String.IsEqual(ListItem.dbtype,episode)]</visible>
+	          </item>
 			<item library="sourceSelect.py">
 					      <label>Source Select</label>
 					      <visible>String.StartsWith(ListItem.path,plugin://plugin.video.kaito/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
@@ -38,6 +42,9 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
 		<news>
+Changelog 0.0.2:
+- Added Rescrape Item option
+
 Changelog 0.0.1:
 - Initial release
 		</news>
