@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="context.kaito" version="0.0.2" name="kaito - Global Context Menu Items" provider-name="SwagOtaku">
+<addon id="context.kaito" version="0.0.3" name="kaito - Global Context Menu Items" provider-name="SwagOtaku">
 	<requires>
 		<import addon="xbmc.python" version="2.23.0" />
 	</requires>
@@ -43,6 +43,9 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
 		<news>
+Changelog 0.0.3:
+- Fixed Rescrape running twice
+
 Changelog 0.0.2:
 - Added Rescrape Item option
 
@@ -52,7 +55,7 @@ Changelog 0.0.1:
 	</extension>
 </addon>
 
-<addon id="plugin.video.kaito" name="kaito" provider-name="SwagOtaku" version="0.0.7">
+<addon id="plugin.video.kaito" name="kaito" provider-name="SwagOtaku" version="0.0.8">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.requests" version="2.19.1" />
@@ -75,6 +78,11 @@ Changelog 0.0.1:
 			<fanart>fanart.jpg</fanart>
 		</assets>
     <news>
+Changelog 0.0.8:
+Fixed movies not working in AniList watchlist
+Fixed scrape and rescrape running twice
+Updated anime season for upcoming and trending menu items
+
 Changelog 0.0.7:
 Improved cloud inspection
 Adjusted 'Next Up'
